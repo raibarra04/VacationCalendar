@@ -19,6 +19,16 @@ body {
   background-position: center;
 }
 
+.create-account-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(relax.jpg);
+  background-color: rgb(127, 211, 214);
+  background-size: cover;
+  background-position: center;
+}
+
 .login-container {
   height: 70%;
   width: 25%;
