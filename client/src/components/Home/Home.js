@@ -22,22 +22,22 @@ const localizer = dateFnsLocalizer({
 
 const events = [
   {
-    title: "Big Meeting",
+    title: "Mexico",
     allDay: true,
-    start: new Date(2021, 10, 7),
-    end: new Date(2021, 10, 10),
+    start: new Date(2021, 11, 7),
+    end: new Date(2021, 11, 10),
   },
   {
-    title: "Vacation",
+    title: "Italy",
     allDay: true,
-    start: new Date(2021, 10, 20),
-    end: new Date(2021, 10, 23),
+    start: new Date(2021, 11, 20),
+    end: new Date(2021, 11, 23),
   },
   {
-    title: "Conference",
+    title: "Disney World",
     allDay: true,
-    start: new Date(2021, 10, 10),
-    end: new Date(2021, 10, 10),
+    start: new Date(2021, 11, 10),
+    end: new Date(2021, 11, 10),
   },
 ];
 

@@ -14,7 +14,6 @@ import Input from "../Auth/Input";
 
 const Search = () => {
   const classes = useStyles();
-  // const [formData, setFormData] = useState(initialState);
 
   const handleSubmit = (e) => {};
   const handleChange = (e) => {};
@@ -47,7 +46,6 @@ const Search = () => {
           <Button
             component={Link}
             to="/results"
-            // type="submit"
             fullWidth
             variant="contained"
             color="primary"

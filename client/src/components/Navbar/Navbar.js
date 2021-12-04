@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react";
 import { AppBar, Avatar, Typography, Button, Toolbar } from "@material-ui/core";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
-// import decode from "jwt-decode";
 
 import memories from "../../images/cal23.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
-// import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 
 const Navbar = () => {
   const classes = useStyles();
@@ -24,14 +22,6 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // const token = user?.token;
-
-    // if (token) {
-    //   const decodedToken = decode(token);
-
-    //   if (decodedToken.exp * 1000 < new Date().getTime()) logout();
-    // }
-
     setUser(JSON.parse(localStorage.getItem("profile")));
   }, [location]);
 
@@ -48,9 +38,6 @@ const Navbar = () => {
           VacationCalendar
         </Typography>
         <img className={classes.image} src={memories} alt="icon" height="60" />
-        {/* <Avatar>
-          <CalendarTodayIcon />
-        </Avatar> */}
       </div>
       <Toolbar className={classes.toolbar}>
         {user ? (
